@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋 I'm Jay</h1>
+<h1 align="center">Hi there 👋 I'm Shrey</h1>
 <h3 align="center">🔍 Exploring Data Realms 🔍</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jaypatel15406&label=Profile%20views&color=0e75b6&style=flat" alt="jaypatel15406" /> </p>
