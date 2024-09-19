@@ -1,55 +1,81 @@
-<h1 align="center">Hi there 👋 I'm Shrey</h1>
-<h3 align="center">🔍 Exploring Data Realms 🔍</h3>
+# Hi, I'm Shrey Patel 👋
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jaypatel15406&label=Profile%20views&color=0e75b6&style=flat" alt="jaypatel15406" /> </p>
+### 🚀 Data Scientist | Data Engineer | Full Stack Developer | AI Enthusiast
 
-<p align="left"> <a href="https://twitter.com/jaypatel15406" target="blank"><img src="https://img.shields.io/twitter/follow/jaypatel15406?logo=twitter&style=for-the-badge" alt="jaypatel15406" /></a> </p>
+Welcome to my GitHub profile! I am a passionate Data Scientist and Data Engineer with over 4 years of professional experience, working in industries like healthcare, manufacturing, and fintech. My focus is on building scalable data pipelines, applying machine learning algorithms, and solving complex problems using data-driven insights.
 
-- 🌱 Currently learning about **AutoML and LLM Models 🤖**
+---
 
-- 👨‍💻 More information about me is available at [https://jaypatel15406.github.io/](https://jaypatel15406.github.io/)
+## 🔧 Technologies & Tools
+- **Languages:** Python, R, Java, C, C++, PySpark, Scala, Hive
+- **Data Engineering:** Docker, Jenkins, Airflow, Pentaho-ETL, Kafka, Databricks, Informatica
+- **Machine Learning & AI:** PyTorch, TensorFlow, CNN, RNN, LSTM, GNN, Random Forest, Decision Trees
+- **Cloud Services:** AWS (S3, Glue, SageMaker), Azure Databricks, Kubernetes, IBM Watson, Redshift
+- **Databases:** Snowflake, DynamoDB, Redshift, Hadoop, PostgreSQL, MySQL, BigQuery, HBase
+- **Other Tools:** Docker, Jenkins, Git, Linux, Elastic MapReduce, Lake House Architecture
+- **Algorithms & Techniques:** PCA, SVM, CNN, RNN, LSTM, DBN, NAS, Unsupervised NLP, DQN
 
-- 📝 I regularly write articles on [https://medium.com/@jaypatel15406](https://medium.com/@jaypatel15406)
+---
 
-- 💬 Ask me about **Python Programming Language 🐍**
+## 🏆 Featured Projects
 
-- 📫 How to reach me **jaypatel15406@gmail.com**
+### 🔬 [Severity Predictive Modeling for Pulmonary Fibrosis Care](#)  
+Leveraged EfficientNet with ImageNet pre-training to predict the severity of pulmonary fibrosis using clinical and DICOM datasets.
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1JghZmoXs2S9bZQD9U88Sfjnl-_2I1PV3/view?usp=sharing](https://drive.google.com/file/d/1JghZmoXs2S9bZQD9U88Sfjnl-_2I1PV3/view?usp=sharing)
+- **Tech Stack:** Python, TensorFlow, ImageNet, DICOM
+- **Key Features:** Ensemble learning, medical data prediction, early intervention strategies
+- **Outcome:** Achieved 68% accuracy in severity prediction, facilitating timely medical decisions
 
-- ⚡ Fun fact **80% of my time is spent on cleaning and preparing data, and the other 20% is spent complaining about cleaning and preparing data! 😄**
+### 🖥️ [Semiconductor Fabrication Defect Optimization](#)  
+Developed a CNN-based model to detect defects in semiconductor wafers, improving manufacturing efficiency.
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-- [From Data to Decisions: How AI is Changing the Business Landscape](https://jaypatel15406.medium.com/from-data-to-decisions-how-ai-is-changing-the-business-landscape-167c3c1f8a1d?source=rss-c5e8d69bc0a8------2)
-- [Do you really know all about “Data”?](https://jaypatel15406.medium.com/do-you-really-know-all-about-data-79fec911ec63?source=rss-c5e8d69bc0a8------2)
-- [A Day with Cloud at Google Cloud Community Day Ahmedabad](https://jaypatel15406.medium.com/a-day-with-cloud-at-google-cloud-community-day-ahmedabad-1409ca38ee3e?source=rss-c5e8d69bc0a8------2)
-- [Open Source Contribution Without Coding to Make the Internet Better Place with “Crowdsource By…](https://jaypatel15406.medium.com/open-source-contribution-without-coding-to-make-the-internet-better-place-with-crowdsource-by-85b8b7c08d6e?source=rss-c5e8d69bc0a8------2)
-<!-- BLOG-POST-LIST:END -->
+- **Tech Stack:** Python, CNN, TensorFlow, AWS EC2
+- **Key Features:** Defect detection, semiconductor manufacturing, pattern recognition
+- **Outcome:** Achieved 94% accuracy in defect detection, reducing fabrication errors significantly
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/jay_patel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="jay_patel" height="30" width="40" /></a>
-<a href="https://twitter.com/jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="jaypatel15406" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/jay-patel-823a08172" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jay-patel-823a08172" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/11874090" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="11874090" height="30" width="40" /></a>
-<a href="https://kaggle.com/jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="jaypatel15406" height="30" width="40" /></a>
-<a href="https://fb.com/jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="jaypatel15406" height="30" width="40" /></a>
-<a href="https://instagram.com/patelboy_1541" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="patelboy_1541" height="30" width="40" /></a>
-<a href="https://medium.com/@jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@jaypatel15406" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/jaypatel_15406" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="jaypatel_15406" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="jaypatel15406" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="jaypatel15406" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@jaypatel15406" height="30" width="40" /></a>
-<a href="https://discord.gg/jaypatel15406" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="jaypatel15406" height="30" width="40" /></a>
-</p>
+### 🚗 [Synthetic Data Generation for Autonomous Systems](#)  
+Created a synthetic data generation pipeline using Unity3D and GANs to enhance autonomous systems' training datasets.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+- **Tech Stack:** Unity3D, Blender, GANs, AWS EC2
+- **Key Features:** High-fidelity synthetic data, scaling data production for real-world scenarios
+- **Outcome:** Improved model accuracy by addressing edge cases, enhancing autonomous system performance
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=jaypatel15406&show_icons=true&locale=en&layout=compact" alt="jaypatel15406" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jaypatel15406&show_icons=true&locale=en" alt="jaypatel15406" /></p>
+## 💼 Professional Experience
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jaypatel15406&" alt="jaypatel15406" /></p>
+### Data Specialist @ CareWallet (Sep 2023 - Jan 2024)
+- Enhanced fraud detection by 35% using AWS Rekognition and restructured mobile app architecture.
+- Boosted analytical insights by 30% with a HIPAA-compliant Snowflake DB architecture.
+- Led cross-functional teams, improving application security by 12%.
 
+### Data Engineer @ Ridgeant Technologies (Jul 2021 - Aug 2023)
+- Drove 37% YoY growth by reengineering ETL pipelines and implementing dynamic pricing models.
+- Transitioned ETL processes to Informatica, boosting SQL efficiency by 95% and reducing B2B costs by 20%.
+- Increased pharmaceutical sales by 35% through planogram optimization and predictive modeling.
+
+### Software Developer @ ZF Friedrichshafen AG (Apr 2021 - Sep 2021)
+- Improved real-time data retrieval by 30% for GCP Nearby-Search API, serving over 1,000 daily searches.
+- Expanded application reach by 50% to 95 hospitals, improving healthcare data access and interaction.
+
+---
+
+## 🧠 What I’m currently learning / working on:
+- Exploring **MLOps** and improving proficiency in **Kubernetes** for large-scale machine learning pipelines.
+- Working on an **AI-powered fitness tracker** with integrated community engagement and meal recognition.
+- Enhancing skills in **Generative AI** for autonomous system performance and NLP tasks.
+
+---
+
+## 📫 How to reach me:
+- **Email:** [patel.shrey4@northeastern.edu](mailto:patel.shrey4@northeastern.edu)
+- **LinkedIn:** [Shrey Patel](https://www.linkedin.com/in/shreypatel4/)
+- **GitHub:** [GitHub Profile](https://github.com/ShreyPatel4)
+- **Website:** [Portfolio](#)
+
+---
+
+## 🌱 Fun Fact:
+I love applying data science techniques to everyday problems like optimizing travel routes or analyzing personal fitness data. Also, I’m a huge fan of photography and often combine it with data visualization!
+
+---
