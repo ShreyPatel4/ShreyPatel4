@@ -1,6 +1,6 @@
 # Hi, I’m Shrey Patel 👋 
 
-## 🚀 Data Engineer | Generative AI Enthusiast | Full Stack Developer
+## 🚀 Data Engineer | Generative AI Enthusiast
 
 Welcome to my GitHub profile! I am a dedicated Data Engineer with hands-on experience building scalable data pipelines, integrating generative AI into production workflows, and optimizing complex ML architectures. I love tackling real-world problems with data-driven insights, focusing on performance, reliability, and compliance.
 
