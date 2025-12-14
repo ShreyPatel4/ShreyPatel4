@@ -37,7 +37,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 - risk-hotpath-hft — Overlay analytics and reporting with strong audit/compliance features; local-first with optional cloud switches.  
   https://github.com/ShreyPatel4/risk-hotpath-hft
 
-(Additional repos: Data-Kitchen — add description if you’d like it highlighted.)
+(Additional repos: Data-Kitchen — A brewing hot product idea)
 
 ## Repo of the week
 <!-- REPO_OF_WEEK_START -->
