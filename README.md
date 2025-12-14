@@ -41,18 +41,24 @@ I build systems that are production-oriented, performance-driven, and reproducib
 
 ## Repo of the week
 <!-- REPO_OF_WEEK_START -->
+### Repo of the week
+
+- **[ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform](https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
 <!-- BUILT_THIS_WEEK_START -->
+_Nothing added to the journal yet._
 <!-- BUILT_THIS_WEEK_END -->
 
 ## Latest blog / RSS
 <!-- RSS_START -->
+_RSS not configured._
 <!-- RSS_END -->
 
 ## Now coding
 <!-- NOW_CODING_START -->
+[1b5223c](https://github.com/ShreyPatel4/ShreyPatel4/commit/1b5223cbb4d08aa04a769fb1051da7b073a096ea) - interactive RSS (by Shrey Patel)
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
