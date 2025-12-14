@@ -8,7 +8,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 - 📫 Reach me: patelshrey77@gmail.com
 
 ## GitHub stats
-
+![Shrey's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShreyPatel4&show_icons=true&theme=radical)  
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyPatel4&layout=compact&theme=radical)
 
 ## Spotlight Projects
@@ -38,6 +38,22 @@ I build systems that are production-oriented, performance-driven, and reproducib
   https://github.com/ShreyPatel4/risk-hotpath-hft
 
 (Additional repos: Data-Kitchen — add description if you’d like it highlighted.)
+
+## Repo of the week
+<!-- REPO_OF_WEEK_START -->
+<!-- REPO_OF_WEEK_END -->
+
+## What I built this week
+<!-- BUILT_THIS_WEEK_START -->
+<!-- BUILT_THIS_WEEK_END -->
+
+## Latest blog / RSS
+<!-- RSS_START -->
+<!-- RSS_END -->
+
+## Now coding
+<!-- NOW_CODING_START -->
+<!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
 Based on public repositories:
