@@ -8,7 +8,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 - 📫 Reach me: patelshrey77@gmail.com
 
 ## GitHub stats
-![Shrey's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShreyPatel4&show_icons=true&theme=radical)  
+
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyPatel4&layout=compact&theme=radical)
 
 ## Spotlight Projects
