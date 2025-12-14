@@ -1,89 +1,53 @@
-# Hi, I’m Shrey Patel 👋 
+# Hi, I’m Shrey Patel 👋
 
-## 🚀 Data Engineer | Generative AI Enthusiast
+I build systems that are production-oriented, performance-driven, and reproducible — from low-latency C++ engines and paravirtual drivers to Python ML/automation tooling and distributed control planes.
 
-Welcome to my GitHub profile! I am a dedicated Data Engineer with hands-on experience building scalable data pipelines, integrating generative AI into production workflows, and optimizing complex ML architectures. I love tackling real-world problems with data-driven insights, focusing on performance, reliability, and compliance.
+- 🔭 Current work: building scalable systems for observability, data pipelines, and automation  
+- 🌱 Interested in: systems, distributed control planes, low-latency trading infra, tooling, and ML for system observability  
+- ⚡ Fun: game QA automation, synthetic data & logs, and hardware-accelerated I/O  
+- 📫 Reach me: patelshrey77@gmail.com
 
----
+## GitHub stats
+![Shrey's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShreyPatel4&show_icons=true&theme=radical)  
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyPatel4&layout=compact&theme=radical)
 
-## 🔧 Technologies & Tools
+## Spotlight Projects
 
-- **Languages & Programming:** Python, R, SQL, Java, C++, Scala  
-- **Data Engineering & Distributed Systems:** PySpark, Hive, Spark, Kafka, Airflow, Flink, Docker, Kubernetes, Jenkins, Git  
-- **Generative AI & ML:** Diffusion Models, Large Language Models (LLMs), CNN-RNN Architectures, Self-Attention, TensorFlow, PyTorch  
-- **Cloud Services:** AWS (Lambda, Rekognition, SageMaker, Glue), Azure Databricks, GCP (BigQuery, Vertex AI)  
-- **Databases & Data Warehouses:** Snowflake, Redshift, BigQuery, MySQL, PostgreSQL, DynamoDB, HBase  
-- **Other Tools:** Pentaho-ETL, Presto, Grafana, Datadog  
+- UI-State-DOM-Capture-Multi-Agent — Modular, scalable Python-based UI state capture agent designed to automate and document user flows in web applications.  
+  https://github.com/ShreyPatel4/UI-State-DOM-Capture-Multi-Agent
 
----
+- stage-0 — One canonical Stage-0 exactly as 2016-era Notion would have shipped, broken down into the smallest grain.  
+  https://github.com/ShreyPatel4/stage-0
 
-## 🏆 Featured Projects
+- OpenPlay_Tester — Autonomous QA agent for a tiny Godot game with full data pipelines, RL/IL play, video anomaly detection, OOD checks, and an LLM triage assistant.  
+  https://github.com/ShreyPatel4/OpenPlay_Tester
 
-### High-Performance Image Captioning System
-- **Overview:** Built a CNN-RNN-based captioning model enhanced with self-attention mechanisms to improve feature representation.  
-- **Performance:** Leveraged mixed-precision (FP16) training and HPC resources, cutting memory usage by 40% and reducing training time by 50%.  
-- **Key Achievements:**  
-  - +15% improvement in BLEU, CIDEr, METEOR, and ROUGE scores.  
-  - Real-time captioning deployed on Kubernetes with microservices architecture for high throughput and robust performance.
+- FastLane_NVMe — Paravirtual NVMe with RDMA and FPGA-ready hooks (Rust systems & drivers).  
+  https://github.com/ShreyPatel4/FastLane_NVMe
 
-### Latent Diffusion Model for Text-to-Image Synthesis
-- **Overview:** Implemented a Latent Diffusion Model (LDM) by integrating U-Net, VAE, and CLIP for high-fidelity image generation.  
-- **Performance:** Fine-tuned CLIP for better text-image alignment, improving FID by 20% and achieving sub-100ms latency via ONNX/TensorRT.  
-- **Key Achievements:**  
-  - Reduced training compute costs by 50% with FP16, DDP, and gradient checkpointing.  
-  - Built an efficient data pipeline (DiffusionDB, Parquet) to minimize I/O bottlenecks by 60%.  
+- Adaptive-Market-Microstructure-Intelligence-System-AMMIS — Real-time pipeline and ML engine that ingests live tick data and delivers deterministic-latency C++ signals.  
+  https://github.com/ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-
 
----
+- ArcBridge — Hybrid resource projection & extension platform for managing many Kubernetes clusters and projecting their state into a central control plane.  
+  https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform
 
-## 💼 Professional Experience
+- hyper-realistic-synthetic-logs-generator — Minimal, extensible framework to generate hyper-realistic synthetic logs and metrics with configurable characteristics.  
+  https://github.com/ShreyPatel4/hyper-realistic-synthetic-logs-generator
 
-### Data Engineer @ Ridgeant Technologies (Jan 2022 – Aug 2023)
-- **Generative AI Pipelines:** Expanded a unified data lakehouse on Apache Iceberg and Snowflake for large-scale model training on text, audio, and image data.  
-- **Real-Time Processing:** Built real-time distributed data architecture with Apache Flink and Kafka, ensuring near-instant event processing and reducing latency by 60%.  
-- **AWS Rekognition Integration:** Implemented real-time triggers with Lambda and Rekognition for image/video analysis, improving data verification accuracy by 25%.  
-- **ETL Optimization & Cloud Migration:** Migrated legacy Pentaho workflows to Flink, cutting report generation time by 70% and maintaining 99.9% uptime.  
-- **Dynamic Pricing & Revenue Growth:** Deployed a dynamic pricing model on SageMaker, boosting annual revenue by 35% and increasing customer satisfaction by 20%.  
-- **Governance & Compliance:** Enforced HIPAA compliance in Snowflake/Iceberg, strengthening stakeholder trust and mitigating regulatory risks.  
+- risk-hotpath-hft — Overlay analytics and reporting with strong audit/compliance features; local-first with optional cloud switches.  
+  https://github.com/ShreyPatel4/risk-hotpath-hft
 
-### Software Data Engineer Intern @ ZF Friedrichshafen AG (Apr 2021 – Dec 2021)
-- **Legacy Pipeline Modernization:** Migrated a legacy SCD2 pipeline to a modern tech stack with Firebase Authentication and GCP Nearby-Search API.  
-- **API Performance:** Improved API response times by 30%, supporting 10,000+ daily searches without compromising reliability.  
-- **BigQuery Integration:** Orchestrated real-time patient data in BigQuery, ensuring high performance and data-protection compliance.  
+(Additional repos: Data-Kitchen — add description if you’d like it highlighted.)
 
----
+## Languages & Tech Highlights
+Based on public repositories:
+- Python, Rust, Go, C/C++, GDScript
+- Systems engineering: low-latency C++ pipelines, Rust drivers, paravirtual devices
+- Automation & tooling: Python agents, synthetic data, QA automation
+- Cloud & infra: Kubernetes, observability, CI/CD
 
-## 🎓 Education
+## How to collaborate
+Open to collaborations, contract work, and speaking about systems & infra. Best contact: patelshrey77@gmail.com
 
-**Northeastern University**  
-M.S. in Computer Software Engineering (Expected May 2025)  
-- Relevant Coursework: Generative AI, High Performance Parallel Compute with Deep Learning, Big Data and Indexing  
-- Activities & Achievements: Co-founder at CareWallet (Healthcare AI Startup), Project Lead at Google Developer Student Club  
-
-**Ganpat University**  
-B.S. in Computer Science and Engineering, Major in Big Data Analytics (July 2018 – May 2022)  
-- Relevant Coursework: Probability & Statistics, Advanced Cloud Computing, Advanced Big Data Analytics  
-- Activities & Achievements: Project Lead at Google Cloud Study Jam, 2x GCP Quest Leader at Google Cloud  
-
----
-
-## 🧠 What I’m Currently Learning / Working On
-- **MLOps & Kubernetes:** Automating end-to-end ML pipelines, including model versioning, deployment, and monitoring at scale.  
-- **Generative AI:** Further refining LLMs and latent diffusion models for text-to-image and text-to-audio synthesis.  
-- **Real-Time Analytics:** Experimenting with Apache Flink SQL for streaming data transformations and analytics.  
-
----
-
-## 📫 How to Reach Me
-- **Email:** [patel.shrey4@northeastern.edu](mailto:patel.shrey4@northeastern.edu)  
-- **LinkedIn:** [linkedin.com/in/shreypatel4/](https://www.linkedin.com/in/shreypatel4/)  
-- **GitHub:** [github.com/ShreyPatel4](https://github.com/ShreyPatel4)  
-- **Location:** Foster City, CA, USA  
-
----
-
-## 🌱 Fun Fact
-I love combining my passion for photography with data visualization—capturing moments both in real life and through interesting analytics projects.
-
----
-
-*Last Updated: February 2025*
+## License
+This profile README is available under CC0 — reuse as you like.
