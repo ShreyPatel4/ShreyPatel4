@@ -43,7 +43,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/hyper-realistic-synthetic-logs-generator](https://github.com/ShreyPatel4/hyper-realistic-synthetic-logs-generator)**
+- **[ShreyPatel4/risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -58,7 +58,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[515cfba](https://github.com/ShreyPatel4/ShreyPatel4/commit/515cfba0b4fc0dca64a6f0609dd2ec4f2d54ca90) - Revise Data-Kitchen description in README (by Shrey Patel)
+[88b774c](https://github.com/ShreyPatel4/ShreyPatel4/commit/88b774c271aa4355e24fb19a899fc6f6121db23d) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
