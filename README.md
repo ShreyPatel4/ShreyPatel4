@@ -43,7 +43,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/OpenPlay_Tester](https://github.com/ShreyPatel4/OpenPlay_Tester)**
+- **[ShreyPatel4/FastLane_NVMe](https://github.com/ShreyPatel4/FastLane_NVMe)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -58,7 +58,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[4b1c97f](https://github.com/ShreyPatel4/ShreyPatel4/commit/4b1c97fbbfd54e4183e75946d11bcd252fb7a98a) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[20f4cb0](https://github.com/ShreyPatel4/ShreyPatel4/commit/20f4cb07a33b37b00f7b54a51dd754117c7cb74b) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
