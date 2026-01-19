@@ -43,7 +43,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/FastLane_NVMe](https://github.com/ShreyPatel4/FastLane_NVMe)**
+- **[ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-](https://github.com/ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -58,7 +58,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[20f4cb0](https://github.com/ShreyPatel4/ShreyPatel4/commit/20f4cb07a33b37b00f7b54a51dd754117c7cb74b) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[14f9115](https://github.com/ShreyPatel4/ShreyPatel4/commit/14f9115b77487939d3eb2ab088557fd17404e5e8) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
