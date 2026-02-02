@@ -43,7 +43,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform](https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform)**
+- **[ShreyPatel4/hyper-realistic-synthetic-logs-generator](https://github.com/ShreyPatel4/hyper-realistic-synthetic-logs-generator)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -58,7 +58,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[a7c442a](https://github.com/ShreyPatel4/ShreyPatel4/commit/a7c442aeb52c27a331e6f0d5d489b20b93569c5b) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[e345150](https://github.com/ShreyPatel4/ShreyPatel4/commit/e34515062433d3f24235c40250befc0c0317827c) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
