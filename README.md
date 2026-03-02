@@ -42,7 +42,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/UI-State-DOM-Capture-Multi-Agent](https://github.com/ShreyPatel4/UI-State-DOM-Capture-Multi-Agent)**
+- **[ShreyPatel4/stage-0](https://github.com/ShreyPatel4/stage-0)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -57,7 +57,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[8a5f783](https://github.com/ShreyPatel4/ShreyPatel4/commit/8a5f7833e58f183d090775261ffe861cac8e2678) - Remove email contact from README (by Shrey Patel)
+[56606cb](https://github.com/ShreyPatel4/ShreyPatel4/commit/56606cb577301df2a90ab5c9e5ef396a4dfaaed5) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
