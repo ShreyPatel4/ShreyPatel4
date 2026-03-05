@@ -2,13 +2,10 @@
 
 I build systems that are production-oriented, performance-driven, and reproducible — from low-latency C++ engines and paravirtual drivers to Python ML/automation tooling and distributed control planes.
 
-- 🔭 Current work: building scalable systems for observability, data pipelines, and automation  
+- 🔭 Current work: building scalable systems for observability, LLM data pipelines, automation and Generative AI Engineering
 - 🌱 Interested in: systems, distributed control planes, low-latency trading infra, tooling, and ML for system observability  
 - ⚡ Fun: game QA automation, synthetic data & logs, and hardware-accelerated I/O  
 
-## GitHub stats
-![Shrey's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShreyPatel4&show_icons=true&theme=radical)  
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyPatel4&layout=compact&theme=radical)
 
 ## Spotlight Projects
 
