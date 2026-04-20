@@ -39,7 +39,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft)**
+- **[ShreyPatel4/Data-Kitchen](https://github.com/ShreyPatel4/Data-Kitchen)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -54,7 +54,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[0e1b001](https://github.com/ShreyPatel4/ShreyPatel4/commit/0e1b00161ad962baa8d6d17344b97f07cf1c004b) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[442b812](https://github.com/ShreyPatel4/ShreyPatel4/commit/442b812ba197c5d7096b35a6d0c0d477736727de) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
