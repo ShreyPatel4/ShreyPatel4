@@ -6,16 +6,17 @@ I build systems that are production-oriented, performance-driven, and reproducib
 - 🌱 Interested in: systems, distributed control planes, low-latency trading infra, tooling, and ML for system observability
 - ⚡ Fun: game QA automation, synthetic data & logs, and hardware-accelerated I/O
 
-## Recent Highlights — Last 2 Months (Feb–Apr 2026)
+## Recent Highlights — Last 2 Months (Mar–May 2026)
 
-- **Founded [Coconut Labs](https://github.com/coconut-labs)** and shipped the org profile + landing page ([ccocnutlabs-LP](https://github.com/coconut-labs/ccocnutlabs-LP)).
+- **Founded [Coconut Labs](https://github.com/coconut-labs)** — independent inference research lab at [coconutlabs.org](https://coconutlabs.org). Shipped org profile, landing page ([ccocnutlabs-LP](https://github.com/coconut-labs/ccocnutlabs-LP)), 4-dot brand mark, and contact / newsletter rebrand off the kvwarden domain.
 - **Launched [kvwarden](https://github.com/coconut-labs/kvwarden) v0.1.1 → v0.1.3** — tenant-fair LLM inference orchestration on a single GPU (no Kubernetes). Renamed from InferGrid and ran a multi-gate fairness ladder on H100 / A100 with vLLM and SGLang covering Llama-3.1-70B (TP=4), Mixtral-8x7B MoE, and mixed prompt-length distributions. Highlights:
   - DRR-priority admission with per-tenant token-bucket rate limiting (closed a 523× starvation gap to baseline).
   - Per-tenant TTFT histograms, fairness Grafana dashboard, opt-in anonymous telemetry receiver on Cloudflare Workers.
   - Streaming router fixes (admission-slot lifetime, real TTFT, max-stream-duration fence), interactive CLI + `doctor` + man pages.
   - Show HN launch with one-pager, FAQ, pitch, and architecture overview.
+- **kvwarden — Gate 3 / T2 (cache-pressure admission)** — RFC + KV-eviction config + runbook, T2 admission test skeleton, `TenantPolicy` + `tenant_id` surface stub, M4 bench harness flags (`--prefix-overlap`, `--bias-flooder-cost`), py3.13 CI, and a one-command Docker Compose eval bundle.
 - **`Minierva-SEPA`** *(private)* — algorithmic SEPA (Specific Entry Point Analysis) for Indian markets: NIFTY-500 screener with VCP detection, IBD-weighted RS percentile, 7-level exit hierarchy, walk-forward backtesting, TradingView Pine export.
-- **`weft`** *(private)* — research + strategy docs for tenant-fair LLM inference on Apple Silicon (pre-product).
+- **`mlxd`** *(private)* — research + strategy docs for tenant-fair LLM inference on Apple Silicon (pre-product).
 - **[solution_SnowConvertAI_final](https://github.com/ShreyPatel4/solution_SnowConvertAI_final)** — SQL Server → Snowflake migration take-home with a verification harness and head-to-head comparison vs. SnowConvert AI.
 - **[SP-K8s-Control-Panel-Using-Streamlit](https://github.com/ShreyPatel4/SP-K8s-Control-Panel-Using-Streamlit)** — Streamlit-based Kubernetes control panel for deployment scaling and pod operations.
 - **[dream_team](https://github.com/ShreyPatel4/dream_team)** — a 31-agent engineering organization running as a daemon, forking OpenClaw as the gateway/UI layer (Slack / Discord / Telegram bridges, web dashboard) with per-agent identity files (`SOUL.md`, `AGENTS.md`).
