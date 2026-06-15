@@ -57,7 +57,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/hyper-realistic-synthetic-logs-generator](https://github.com/ShreyPatel4/hyper-realistic-synthetic-logs-generator)**
+- **[ShreyPatel4/risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -72,7 +72,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[0ed514e](https://github.com/ShreyPatel4/ShreyPatel4/commit/0ed514ea3cf6d430bbe1413b761bcdaa1ec66649) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[495a223](https://github.com/ShreyPatel4/ShreyPatel4/commit/495a2236003b58ebba7529fb9b776fba67808e3f) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
