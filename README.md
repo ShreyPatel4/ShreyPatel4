@@ -57,7 +57,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/UI-State-DOM-Capture-Multi-Agent](https://github.com/ShreyPatel4/UI-State-DOM-Capture-Multi-Agent)**
+- **[ShreyPatel4/stage-0](https://github.com/ShreyPatel4/stage-0)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -72,7 +72,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[1d500cb](https://github.com/ShreyPatel4/ShreyPatel4/commit/1d500cbf64909d66a5f9854010577e13c20917cd) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[ff64289](https://github.com/ShreyPatel4/ShreyPatel4/commit/ff6428973915334b8b74159c40aed0dd480c3af4) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
