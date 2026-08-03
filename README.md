@@ -57,7 +57,7 @@ I build systems that are production-oriented, performance-driven, and reproducib
 <!-- REPO_OF_WEEK_START -->
 ### Repo of the week
 
-- **[ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-](https://github.com/ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-)**
+- **[ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform](https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform)**
 <!-- REPO_OF_WEEK_END -->
 
 ## What I built this week
@@ -72,7 +72,7 @@ _RSS not configured._
 
 ## Now coding
 <!-- NOW_CODING_START -->
-[d51a6f8](https://github.com/ShreyPatel4/ShreyPatel4/commit/d51a6f86f24f2e39eb7801b4f19c40465c57e612) - chore: update README (repo-of-week & journal) (by github-actions[bot])
+[e574082](https://github.com/ShreyPatel4/ShreyPatel4/commit/e574082e86293bfb3d908acc2a27e5d7f306dae7) - chore: update README (repo-of-week & journal) (by github-actions[bot])
 <!-- NOW_CODING_END -->
 
 ## Languages & Tech Highlights
