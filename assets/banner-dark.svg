@@ -1,33 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Shrey Patel, systems and inference infrastructure">
-<rect width="1280" height="300" rx="18" fill="#0F0F13"/>
-<rect x="0.5" y="0.5" width="1279" height="299" rx="17.5" fill="none" stroke="#2A2A34"/>
-<text x="64" y="74" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#6E6862" letter-spacing="1.6">BOSTON, MA   ·   OPEN TO SYSTEMS + INFRA ROLES</text>
-<text x="62" y="148" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="66" font-weight="700" fill="#ECE8E1" letter-spacing="-1.6">Shrey Patel</text>
-<text x="64" y="194" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="500" fill="#9C958D">Systems and inference infrastructure.</text>
-<rect x="64" y="220" width="55" height="30" rx="15" fill="#22222C"/>
-<text x="75" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">Rust</text>
-<rect x="128" y="220" width="64" height="30" rx="15" fill="#22222C"/>
-<text x="139" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">C++20</text>
-<rect x="201" y="220" width="72" height="30" rx="15" fill="#22222C"/>
-<text x="212" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">Python</text>
-<rect x="282" y="220" width="38" height="30" rx="15" fill="#22222C"/>
-<text x="293" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">Go</text>
-<rect x="329" y="220" width="131" height="30" rx="15" fill="#22222C"/>
-<text x="340" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">vLLM / SGLang</text>
-<rect x="469" y="220" width="106" height="30" rx="15" fill="#22222C"/>
-<text x="480" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">Kubernetes</text>
-<rect x="584" y="220" width="47" height="30" rx="15" fill="#22222C"/>
-<text x="595" y="240" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="500" fill="#9C958D">AWS</text>
-<rect x="736" y="34" width="514" height="232" rx="14" fill="#191921"/>
-<text x="766" y="72" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#6E6862" letter-spacing="1.4">QUIET-TENANT TTFT p99</text>
-<text x="766" y="94" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#6E6862">one A100, two tenants, Llama-3.1-8B on vLLM</text>
-<text x="766" y="143" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#9C958D">solo, no contention</text>
-<rect x="918" y="130" width="8" height="16" rx="4" fill="#4FB185"/>
-<text x="1222" y="143" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#ECE8E1" text-anchor="end">53.9 ms</text>
-<text x="766" y="191" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#9C958D">FIFO under flooder</text>
-<rect x="918" y="178" width="152" height="16" rx="4" fill="#E07557"/>
-<text x="1222" y="191" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#ECE8E1" text-anchor="end">1,585 ms</text>
-<text x="766" y="239" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="500" fill="#9C958D">kvwarden token-bucket</text>
-<rect x="918" y="226" width="8" height="16" rx="4" fill="#4FB185"/>
-<text x="1222" y="239" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="14" font-weight="600" fill="#ECE8E1" text-anchor="end">61.5 ms</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 384" width="1000" height="384" role="img" aria-label="Shrey Patel. Systems and inference infrastructure. Work measured from 37 nanoseconds to 61.5 milliseconds.">
+<rect width="1000" height="384" rx="16" fill="#161310"/>
+<rect x="0.5" y="0.5" width="999" height="383" rx="15.5" fill="none" stroke="#332C23"/>
+<g transform="translate(62,40) scale(0.62)" fill="#D0A04A"><path d="M 6,3 L 0,3 L 0,27 L 6,27" fill="none" stroke="#D0A04A" stroke-width="2"/><path d="M 94,3 L 100,3 L 100,27 L 94,27" fill="none" stroke="#D0A04A" stroke-width="2"/><circle cx="17" cy="15" r="3"/><circle cx="39" cy="15" r="3"/><circle cx="61" cy="15" r="3"/><circle cx="83" cy="15" r="3"/><circle cx="28" cy="6" r="1.2"/><circle cx="28" cy="10.5" r="1.2"/><circle cx="28" cy="15" r="1.2"/><circle cx="28" cy="19.5" r="1.2"/><circle cx="28" cy="24" r="1.2"/><circle cx="50" cy="6" r="1.2"/><circle cx="50" cy="10.5" r="1.2"/><circle cx="50" cy="15" r="1.2"/><circle cx="50" cy="19.5" r="1.2"/><circle cx="50" cy="24" r="1.2"/><circle cx="72" cy="6" r="1.2"/><circle cx="72" cy="10.5" r="1.2"/><circle cx="72" cy="15" r="1.2"/><circle cx="72" cy="19.5" r="1.2"/><circle cx="72" cy="24" r="1.2"/></g>
+<text x="62" y="148" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="66" font-weight="700" fill="#F2EDE0" letter-spacing="-1.8">Shrey Patel</text>
+<text x="64" y="190" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="27" font-weight="500" fill="#A99E8C">Systems and inference infrastructure.</text>
+<text x="64" y="238" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#7A7062" letter-spacing="1.8">TIME PER OPERATION, ACROSS WHAT I BUILD</text>
+<line x1="62" y1="326" x2="938" y2="326" stroke="#332C23" stroke-width="2"/>
+<line x1="214.6" y1="326" x2="820.1" y2="326" stroke="#D0A04A" stroke-width="2" opacity="0.45"/>
+<line x1="62.0" y1="320" x2="62.0" y2="332" stroke="#332C23" stroke-width="2"/>
+<text x="62.0" y="356" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="500" fill="#7A7062">1 ns</text>
+<line x1="354.0" y1="320" x2="354.0" y2="332" stroke="#332C23" stroke-width="2"/>
+<text x="354.0" y="356" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="500" fill="#7A7062" text-anchor="middle">1 µs</text>
+<line x1="646.0" y1="320" x2="646.0" y2="332" stroke="#332C23" stroke-width="2"/>
+<text x="646.0" y="356" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="500" fill="#7A7062" text-anchor="middle">1 ms</text>
+<line x1="938.0" y1="320" x2="938.0" y2="332" stroke="#332C23" stroke-width="2"/>
+<text x="938.0" y="356" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="17" font-weight="500" fill="#7A7062" text-anchor="end">1 s</text>
+<line x1="214.6" y1="304" x2="214.6" y2="326" stroke="#D0A04A" stroke-width="2"/>
+<circle cx="214.6" cy="326" r="7" fill="#D0A04A"/>
+<circle cx="214.6" cy="326" r="3" fill="#161310"/>
+<text x="214.6" y="294" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#F2EDE0" text-anchor="middle">37 ns</text>
+<text x="214.6" y="272" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#A99E8C" text-anchor="middle">pre-trade risk gate</text>
+<line x1="820.1" y1="304" x2="820.1" y2="326" stroke="#D0A04A" stroke-width="2"/>
+<circle cx="820.1" cy="326" r="7" fill="#D0A04A"/>
+<circle cx="820.1" cy="326" r="3" fill="#161310"/>
+<text x="820.1" y="294" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="23" font-weight="700" fill="#F2EDE0" text-anchor="middle">61.5 ms</text>
+<text x="820.1" y="272" font-family="ui-sans-serif,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#A99E8C" text-anchor="middle">TTFT p99 under load</text>
 </svg>
