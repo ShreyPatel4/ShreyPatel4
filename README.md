@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShreyPatel4/ShreyPatel4/main/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShreyPatel4/ShreyPatel4/main/assets/banner-light.svg">
   <img alt="Shrey Patel. Systems and inference infrastructure. Boston, MA." src="assets/banner-light.svg" width="100%">
 </picture>
 
