@@ -154,6 +154,4 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 ---
 
-Reach me at [patelshrey77@gmail.com](mailto:patelshrey77@gmail.com). Full time roles, contract work, or an argument about inference fairness. All three are welcome.
-
-<sub>Banner is generated, not drawn: <a href="scripts/make_banner.py">scripts/make_banner.py</a>. Palette and mark come from <a href="https://coconutlabs.org">coconutlabs.org</a>. This README is CC0, take what is useful.</sub>
+Reach me at [shreypatel@coconutlabs.org](mailto:patelshrey77@gmail.org) or  [patelshrey77@gmail.com](mailto:patelshrey77@gmail.com). Full time roles, contract work, or an argument about inference fairness. All three are welcome.
