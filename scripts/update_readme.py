@@ -1,126 +1,113 @@
 #!/usr/bin/env python3
+"""Refresh the "Recent pushes" block in README.md.
+
+One block, one job. If anything goes wrong the block is left exactly as it was,
+because a stale line reads better on a public profile than a placeholder that
+says the automation is broken.
+"""
+
 import os
 import re
+import sys
+import urllib.request
+import urllib.error
 import json
-import requests
-from datetime import datetime
-import calendar
 
-# Config
-CONFIG_PATH = '.github/readme-config.json'
-README_PATH = 'README.md'
-JOURNAL_PATH = None
+README = "README.md"
+START = "<!-- ACTIVITY_START -->"
+END = "<!-- ACTIVITY_END -->"
+USER = os.environ.get("REPO_OWNER", "ShreyPatel4")
+LIMIT = 6
 
-
-def load_config():
-    with open(CONFIG_PATH) as f:
-        return json.load(f)
+# Repos that exist only to hold this profile, or that are someone else's work.
+SKIP = {USER}
 
 
-def select_repo_of_week(repos):
-    # deterministic by ISO week number
-    week = datetime.utcnow().isocalendar()[1]
-    idx = week % len(repos)
-    return repos[idx]
+def api(path):
+    req = urllib.request.Request(
+        f"https://api.github.com{path}",
+        headers={
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "profile-readme-updater",
+            **(
+                {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"}
+                if os.environ.get("GITHUB_TOKEN")
+                else {}
+            ),
+        },
+    )
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
 
 
-def parse_journal(path):
-    if not os.path.exists(path):
-        return ''
-    text = open(path,'r',encoding='utf-8').read()
-    # Find sections starting with '## '
-    parts = re.split(r'(^##\s+)', text, flags=re.MULTILINE)
-    # parts may interleave headings and content; fallback to whole file
-    headers = re.findall(r'^##\s+(.+)$', text, flags=re.MULTILINE)
-    if not headers:
-        return text.strip()
-    # find last header position
-    last_header = headers[-1]
-    pattern = r'##\s+' + re.escape(last_header) + r"(.*?)(?=\n##\s+|\Z)"
-    m = re.search(pattern, text, flags=re.S|re.M)
-    if m:
-        content = m.group(1).strip()
-        return f"### {last_header}\n\n{content}"
-    return ''
+def recent_pushes():
+    """One row per repo, newest push first.
+
+    The public events feed no longer inlines commit messages (payload.commits
+    comes back null), so take the head sha from the event and resolve it.
+    """
+    rows, seen = [], set()
+    for ev in api(f"/users/{USER}/events/public?per_page=100"):
+        if ev.get("type") != "PushEvent":
+            continue
+        repo = ev["repo"]["name"]
+        if repo in seen or repo.split("/")[-1] in SKIP:
+            continue
+        head = ev["payload"].get("head")
+        if not head:
+            continue
+        try:
+            msg = api(f"/repos/{repo}/commits/{head}")["commit"]["message"]
+        except (urllib.error.URLError, KeyError, ValueError):
+            continue
+        msg = msg.splitlines()[0].strip()
+        if len(msg) > 68:
+            msg = msg[:67].rstrip() + "…"
+        seen.add(repo)
+        rows.append((repo, msg, ev["created_at"][:10]))
+        if len(rows) >= LIMIT:
+            break
+    return rows
 
 
-def get_latest_commit(owner, repo):
-    token = os.environ.get('GITHUB_TOKEN')
-    headers = {'Accept': 'application/vnd.github+json'}
-    if token:
-        headers['Authorization'] = f'token {token}'
-    url = f'https://api.github.com/repos/{owner}/{repo}/commits'
-    r = requests.get(url, headers=headers, params={'per_page': 1})
-    if r.status_code == 200 and r.json():
-        c = r.json()[0]
-        sha = c.get('sha')
-        msg = c.get('commit',{}).get('message','')
-        author = c.get('commit',{}).get('author',{}).get('name','')
-        html_url = c.get('html_url')
-        short = sha[:7]
-        return f"[{short}]({html_url}) - {msg.splitlines()[0]} (by {author})"
-    return ''
-
-
-def replace_block(text, start_marker, end_marker, new_content):
-    pattern = re.compile(re.escape(start_marker) + r".*?" + re.escape(end_marker), flags=re.S)
-    replacement = start_marker + '\n' + new_content.strip() + '\n' + end_marker
-    if pattern.search(text):
-        return pattern.sub(replacement, text)
-    else:
-        # append at end
-        return text + '\n' + replacement
+def render(rows):
+    if not rows:
+        return None
+    out = ["| Repo | Last commit | When |", "| :-- | :-- | :-- |"]
+    for repo, msg, when in rows:
+        name = repo.split("/")[-1]
+        safe = msg.replace("|", "\\|")
+        out.append(f"| [{name}](https://github.com/{repo}) | {safe} | {when} |")
+    return "\n".join(out)
 
 
 def main():
-    cfg = load_config()
-    global JOURNAL_PATH
-    JOURNAL_PATH = cfg.get('journal', 'JOURNAL.md')
-    repos = cfg.get('repos', [])
-    rss = cfg.get('rss', [])
-    owner = os.environ.get('REPO_OWNER', cfg.get('owner','ShreyPatel4'))
-    repo = os.environ.get('REPO_NAME', cfg.get('repo','ShreyPatel4'))
+    try:
+        block = render(recent_pushes())
+    except (urllib.error.URLError, KeyError, ValueError) as exc:
+        print(f"skipping refresh: {exc}", file=sys.stderr)
+        return 0
 
-    repo_of_week = select_repo_of_week(repos) if repos else None
-    journal_section = parse_journal(JOURNAL_PATH)
-    latest_commit = get_latest_commit(owner, repo)
+    if not block:
+        print("no public pushes found, leaving block alone", file=sys.stderr)
+        return 0
 
-    readme = open(README_PATH,'r',encoding='utf-8').read()
+    text = open(README, encoding="utf-8").read()
+    pattern = re.compile(
+        re.escape(START) + r".*?" + re.escape(END), re.S
+    )
+    if not pattern.search(text):
+        print("activity markers missing, nothing to do", file=sys.stderr)
+        return 0
 
-    # Build repo of week markdown
-    if repo_of_week:
-        name = repo_of_week
-        repo_url = f'https://github.com/{name}' if '/' in name else f'https://github.com/{owner}/{name}'
-        repo_md = f"### Repo of the week\n\n- **[{name}]({repo_url})**\n\n"
+    updated = pattern.sub(f"{START}\n\n{block}\n\n{END}", text)
+    if updated != text:
+        open(README, "w", encoding="utf-8").write(updated)
+        print("README updated")
     else:
-        repo_md = '### Repo of the week\n\n_No repo configured._\n\n'
+        print("no change")
+    return 0
 
-    readme = replace_block(readme, '<!-- REPO_OF_WEEK_START -->', '<!-- REPO_OF_WEEK_END -->', repo_md)
-    built_md = journal_section or '_Nothing added to the journal yet._'
-    readme = replace_block(readme, '<!-- BUILT_THIS_WEEK_START -->', '<!-- BUILT_THIS_WEEK_END -->', built_md)
 
-    # RSS - skip if none
-    if rss:
-        # Basic fetch of first items
-        items_md = ''
-        for feed_url in rss[:3]:
-            try:
-                import feedparser
-                d = feedparser.parse(feed_url)
-                for e in d.entries[:2]:
-                    items_md += f"- [{e.title}]({e.link})\n"
-            except Exception:
-                pass
-        if not items_md:
-            items_md = '_No items fetched from RSS._'
-    else:
-        items_md = '_RSS not configured._'
-    readme = replace_block(readme, '<!-- RSS_START -->', '<!-- RSS_END -->', items_md)
-
-    now_md = latest_commit or '_No recent commits found._'
-    readme = replace_block(readme, '<!-- NOW_CODING_START -->', '<!-- NOW_CODING_END -->', now_md)
-
-    open(README_PATH,'w',encoding='utf-8').write(readme)
-
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    raise SystemExit(main())

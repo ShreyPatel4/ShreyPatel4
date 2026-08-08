@@ -1,90 +1,155 @@
-# Hi, I’m Shrey Patel 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Shrey Patel. Systems and inference infrastructure. Boston, MA." src="assets/banner-light.svg" width="100%">
+</picture>
 
-I build systems that are production-oriented, performance-driven, and reproducible — from low-latency C++ engines and paravirtual drivers to Python ML/automation tooling, tenant-fair LLM inference, and distributed control planes.
+I build the layer between a model and the hardware it runs on, and the layer between a market feed and the risk gate it has to clear. Rust and C++ where latency is the product, Python and Go everywhere else.
 
-- 🔭 Current work: founding **[Coconut Labs](https://github.com/coconut-labs)** — tenant-fair LLM inference orchestration ([kvwarden](https://github.com/coconut-labs/kvwarden)), observability, and Generative AI engineering
-- 🌱 Interested in: systems, distributed control planes, low-latency trading infra, tooling, and ML for system observability
-- ⚡ Fun: game QA automation, synthetic data & logs, and hardware-accelerated I/O
+Right now I run [Coconut Labs](https://coconutlabs.org), a small systems lab, and I am looking for a full time systems or infrastructure role. Based in Boston, open to relocating anywhere in the US.
 
-## Recent Highlights — Last 2 Months (Mar–May 2026)
+[![Email](https://img.shields.io/badge/email-patelshrey77%40gmail.com-1a1a1a?style=flat-square&logo=gmail&logoColor=white)](mailto:patelshrey77@gmail.com)
+[![Coconut Labs](https://img.shields.io/badge/coconutlabs.org-B94F36?style=flat-square)](https://coconutlabs.org)
+[![kvwarden on PyPI](https://img.shields.io/pypi/v/kvwarden?style=flat-square&label=kvwarden&color=2E7D5B)](https://pypi.org/project/kvwarden/)
 
-- **Founded [Coconut Labs](https://github.com/coconut-labs)** — independent inference research lab at [coconutlabs.org](https://coconutlabs.org). Shipped org profile, landing page ([ccocnutlabs-LP](https://github.com/coconut-labs/ccocnutlabs-LP)), 4-dot brand mark, and contact / newsletter rebrand off the kvwarden domain.
-- **Launched [kvwarden](https://github.com/coconut-labs/kvwarden) v0.1.1 → v0.1.3** — tenant-fair LLM inference orchestration on a single GPU (no Kubernetes). Renamed from InferGrid and ran a multi-gate fairness ladder on H100 / A100 with vLLM and SGLang covering Llama-3.1-70B (TP=4), Mixtral-8x7B MoE, and mixed prompt-length distributions. Highlights:
-  - DRR-priority admission with per-tenant token-bucket rate limiting (closed a 523× starvation gap to baseline).
-  - Per-tenant TTFT histograms, fairness Grafana dashboard, opt-in anonymous telemetry receiver on Cloudflare Workers.
-  - Streaming router fixes (admission-slot lifetime, real TTFT, max-stream-duration fence), interactive CLI + `doctor` + man pages.
-  - Show HN launch with one-pager, FAQ, pitch, and architecture overview.
-- **kvwarden — Gate 3 / T2 (cache-pressure admission)** — RFC + KV-eviction config + runbook, T2 admission test skeleton, `TenantPolicy` + `tenant_id` surface stub, M4 bench harness flags (`--prefix-overlap`, `--bias-flooder-cost`), py3.13 CI, and a one-command Docker Compose eval bundle.
-- **`Minierva-SEPA`** *(private)* — algorithmic SEPA (Specific Entry Point Analysis) for Indian markets: NIFTY-500 screener with VCP detection, IBD-weighted RS percentile, 7-level exit hierarchy, walk-forward backtesting, TradingView Pine export.
-- **`mlxd`** *(private)* — research + strategy docs for tenant-fair LLM inference on Apple Silicon (pre-product).
-- **[solution_SnowConvertAI_final](https://github.com/ShreyPatel4/solution_SnowConvertAI_final)** — SQL Server → Snowflake migration take-home with a verification harness and head-to-head comparison vs. SnowConvert AI.
-- **[SP-K8s-Control-Panel-Using-Streamlit](https://github.com/ShreyPatel4/SP-K8s-Control-Panel-Using-Streamlit)** — Streamlit-based Kubernetes control panel for deployment scaling and pod operations.
-- **[dream_team](https://github.com/ShreyPatel4/dream_team)** — a 31-agent engineering organization running as a daemon, forking OpenClaw as the gateway/UI layer (Slack / Discord / Telegram bridges, web dashboard) with per-agent identity files (`SOUL.md`, `AGENTS.md`).
-- **[risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft)** — overlay analytics + reporting with audit/compliance, local-first with optional cloud switches.
+---
 
-## Spotlight Projects
+## Numbers I can reproduce
 
-- kvwarden — Tenant-fair LLM inference orchestration on a single GPU. No Kubernetes.
-  https://github.com/coconut-labs/kvwarden
+Not stars. These are measurements, and each one has a repo and a command behind it.
 
-- UI-State-DOM-Capture-Multi-Agent — Modular, scalable Python-based UI state capture agent designed to automate and document user flows in web applications.
-  https://github.com/ShreyPatel4/UI-State-DOM-Capture-Multi-Agent
+| Measurement | Result | Repo |
+| :-- | :-- | :-- |
+| Quiet-tenant TTFT p99 while a neighbor floods the same A100 | **1,585 ms → 61.5 ms**, back to 1.14x solo | [kvwarden](https://github.com/coconut-labs/kvwarden) |
+| Pre-trade risk gate, 7 checks, `no_std` Rust, zero heap allocation | **37 ns**, 23M evals/sec, P99 42 ns | [risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft) |
+| Streaming replay of a generated trading day through that gate | **1.5M events/sec**, 780K events in 0.5 s | [risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft) |
+| Kappa pipeline on real AWS, deployed end to end, measured, torn down | 45 assertions, every claim mapped to an evidence tier | [realtime-analytics-004](https://github.com/ShreyPatel4/realtime-analytics-pipeline-engineer-004) |
 
-- stage-0 — One canonical Stage-0 exactly as 2016-era Notion would have shipped, broken down into the smallest grain.
-  https://github.com/ShreyPatel4/stage-0
+---
 
-- OpenPlay_Tester — Autonomous QA agent for a tiny Godot game with full data pipelines, RL/IL play, video anomaly detection, OOD checks, and an LLM triage assistant.
-  https://github.com/ShreyPatel4/OpenPlay_Tester
+## Selected work
 
-- FastLane_NVMe — Paravirtual NVMe with RDMA and FPGA-ready hooks (Rust systems & drivers).
-  https://github.com/ShreyPatel4/FastLane_NVMe
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Adaptive-Market-Microstructure-Intelligence-System-AMMIS — Real-time pipeline and ML engine that ingests live tick data and delivers deterministic-latency C++ signals.
-  https://github.com/ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-
+### [kvwarden](https://github.com/coconut-labs/kvwarden)
 
-- ArcBridge — Hybrid resource projection & extension platform for managing many Kubernetes clusters and projecting their state into a central control plane.
-  https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform
+Tenant-fair LLM inference on one GPU. Sits in front of vLLM or SGLang, rate-limits per tenant at admission, and keeps a quiet user fast while a noisy neighbor floods the same engine. Ten lines of YAML, no application code change.
 
-- hyper-realistic-synthetic-logs-generator — Minimal, extensible framework to generate hyper-realistic synthetic logs and metrics with configurable characteristics.
-  https://github.com/ShreyPatel4/hyper-realistic-synthetic-logs-generator
+Fills the gap between Ollama, which is single user, and Dynamo or llm-d, which want a datacenter.
 
-- risk-hotpath-hft — Overlay analytics and reporting with strong audit/compliance features; local-first with optional cloud switches.
-  https://github.com/ShreyPatel4/risk-hotpath-hft
+`Python` `vLLM` `SGLang` `DRR` `token-bucket` `Grafana`
 
-(Additional repos: Data-Kitchen — A brewing hot product idea)
+</td>
+<td width="50%" valign="top">
 
-## Repo of the week
-<!-- REPO_OF_WEEK_START -->
-### Repo of the week
+### [risk-hotpath-hft](https://github.com/ShreyPatel4/risk-hotpath-hft)
 
-- **[ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform](https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform)**
-<!-- REPO_OF_WEEK_END -->
+A 500-line `no_std` Rust crate that clears pre-trade risk in 37 ns with zero heap allocations, plus the simulation harness that proves it: 120 symbols, 50 traders, streaming replay, live dashboard.
 
-## What I built this week
-<!-- BUILT_THIS_WEEK_START -->
-_Nothing added to the journal yet._
-<!-- BUILT_THIS_WEEK_END -->
+Config hot-swaps mid-stream with no P99 delta. Every check is property-tested.
 
-## Latest blog / RSS
-<!-- RSS_START -->
-_RSS not configured._
-<!-- RSS_END -->
+`Rust` `no_std` `Criterion` `proptest` `Prometheus`
 
-## Now coding
-<!-- NOW_CODING_START -->
-[e574082](https://github.com/ShreyPatel4/ShreyPatel4/commit/e574082e86293bfb3d908acc2a27e5d7f306dae7) - chore: update README (repo-of-week & journal) (by github-actions[bot])
-<!-- NOW_CODING_END -->
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## Languages & Tech Highlights
-Based on public repositories:
-- Python, Rust, Go, C/C++, GDScript
-- LLM inference & serving: vLLM, SGLang, tenant-fair scheduling (DRR + token-bucket), per-tenant TTFT/Grafana telemetry
-- Systems engineering: low-latency C++ pipelines, Rust drivers, paravirtual devices
-- Automation & tooling: Python agents, synthetic data, QA automation
-- Cloud & infra: Kubernetes, observability, CI/CD, Cloudflare Workers
+### [realtime-analytics-004](https://github.com/ShreyPatel4/realtime-analytics-pipeline-engineer-004)
 
-## How to collaborate
-Open to collaborations, contract work, and speaking about systems & infra. Best contact: patelshrey77@gmail.com
+A real-time analytics rebuild for a Series-B martech company: design plus working artifacts that produce measured numbers. Deployed live on AWS, measured, then torn down.
 
-## License
-This profile README is available under CC0 — reuse as you like.
+Ships an evidence ledger that maps every claim to a tier, so nothing in it is inflated.
+
+`AWS` `Kinesis` `Lambda` `Terraform` `Python`
+
+</td>
+<td width="50%" valign="top">
+
+### [stage-0](https://github.com/ShreyPatel4/stage-0)
+
+One canonical Stage-0 built exactly as a 2016-era Notion would have shipped it, broken to the smallest grain: block CRUD over FastAPI, Automerge CRDT merge service, Kafka fan-out, Meilisearch, auth, billing, dashboards.
+
+`FastAPI` `Postgres` `Redis` `Kafka` `CRDT` `Meilisearch`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [UI-State-DOM-Capture](https://github.com/ShreyPatel4/UI-State-DOM-Capture-Multi-Agent)
+
+Agents that drive a real browser through a natural-language task, track the flow in Postgres, and store screenshots and DOM snapshots in MinIO. Exports the whole run as a dataset.
+
+`Python` `Playwright` `FastAPI` `Postgres` `MinIO`
+
+</td>
+<td width="50%" valign="top">
+
+### [ArcBridge](https://github.com/ShreyPatel4/ArcBridge-Hybrid-Resource-Projection-and-Extension-Platform)
+
+A hybrid management plane that connects many Kubernetes clusters to a central control plane and delivers platform extensions safely. Agent watches a CRD and reconciles, control plane owns registration and desired state.
+
+`Go` `Kubernetes` `Helm` `OpenTelemetry` `k6`
+
+</td>
+</tr>
+</table>
+
+---
+
+<details>
+<summary><b>More projects</b></summary>
+
+<br>
+
+| Project | What it is | Stack |
+| :-- | :-- | :-- |
+| [FastLane_NVMe](https://github.com/ShreyPatel4/FastLane_NVMe) | Storage offload stack that exposes NVMe semantics to guests over RDMA, with FPGA-ready hooks | Rust, VFIO-user |
+| [AMMIS](https://github.com/ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-) | Reproducible C++20 workspace for latency-focused research: Conan, CMake, Google Benchmark, sanitizers | C++20, CMake, Conan |
+| [dream_team](https://github.com/ShreyPatel4/dream_team) | A 31-agent engineering organization running as a daemon, with per-agent identity files and chat bridges | Python, agents |
+| [Data-Kitchen (Nova)](https://github.com/ShreyPatel4/Data-Kitchen) | AI-native customer-VPC data platform. Four sprints shipped, then archived after an honest pre-customer review. Handoff doc included. | Python, Iceberg, FastAPI |
+| [solution_SnowConvertAI](https://github.com/ShreyPatel4/solution_SnowConvertAI_final) | SQL Server to Snowflake migration with a verification harness and a head-to-head against SnowConvert AI | T-SQL, Snowflake |
+| [Latent-Diffusion-Artbench](https://github.com/ShreyPatel4/Latent-Diffusion-Artbench-OpenImage) | Latent diffusion model trained from scratch on the full ArtBench dataset | PyTorch |
+
+Data-Kitchen is archived on purpose. I would rather show the review that stopped it than pretend it is still alive.
+
+</details>
+
+<details>
+<summary><b>What I actually reach for</b></summary>
+
+<br>
+
+| Layer | Tools |
+| :-- | :-- |
+| Systems | Rust (`no_std`, VFIO-user, RDMA), C++20, CMake, Conan, Criterion, proptest |
+| Inference | vLLM, SGLang, token-bucket and DRR admission, per-tenant TTFT histograms |
+| Data | Postgres, Kafka, Redis, Iceberg, Parquet, Meilisearch, MinIO, Snowflake |
+| Cloud | AWS (Kinesis, Lambda, KMS), Kubernetes, Terraform, Helm, Cloudflare Workers |
+| Observability | Prometheus, Grafana, OpenTelemetry, k6 |
+| Everyday | Python, Go, FastAPI, Playwright, Docker, GitHub Actions |
+
+</details>
+
+<details>
+<summary><b>Recent pushes</b></summary>
+
+<br>
+<!-- ACTIVITY_START -->
+
+| Repo | Last commit | When |
+| :-- | :-- | :-- |
+| [ccocnutlabs-LP](https://github.com/coconut-labs/ccocnutlabs-LP) | unit G: ingestion data-contract guardrail (class G) — integrated | 2026-08-05 |
+
+<!-- ACTIVITY_END -->
+
+</details>
+
+---
+
+Best way to reach me is [patelshrey77@gmail.com](mailto:patelshrey77@gmail.com). Open to full time roles, contract work, and talking about inference fairness or low-latency risk with anyone who finds it interesting.
+
+<sub>Banner is generated by <a href="scripts/make_banner.py">scripts/make_banner.py</a>. This README is CC0, reuse whatever is useful.</sub>
