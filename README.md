@@ -4,7 +4,7 @@
   <img alt="Shrey Patel. Systems and inference infrastructure. A log axis from one nanosecond to one second, marked at 37 ns for a pre-trade risk gate and 61.5 ms for quiet-tenant TTFT p99 under load." src="assets/banner-light.svg" width="100%">
 </picture>
 
-**This is my personal portfolio.** All of it is mine: the code, the measurements, and the calls that did not work out. [Coconut Labs](https://coconutlabs.org) is the name I publish my own research under. It is not an employer and it is not a startup.
+**This is my personal portfolio.**
 
 I work on the parts of a system where the clock is the spec. Six orders of magnitude sit between the two numbers on that axis, and most of what I build lands somewhere along it. A risk check that has to clear before the order misses the market. A scheduler deciding which tenant gets the next slot on a GPU. A driver moving blocks off a wire without touching the heap.
 
