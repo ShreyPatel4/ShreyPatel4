@@ -147,7 +147,9 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
-| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | design(direction-a): foundations — Geist, 16.5px body, 2px radius, dark scheme | 2026-08-10 |
+| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | gallery: every unit links its public source repo | 2026-08-10 |
+| [kvwarden](https://github.com/coconut-labs/kvwarden) | chore: v0.1.6 dependency hygiene — cut runtime deps 144 MB → 33 MB,… | 2026-08-08 |
+| [.github](https://github.com/coconut-labs/.github) | Add org banner, rewrite the profile | 2026-08-08 |
 
 <!-- ACTIVITY_END -->
 
