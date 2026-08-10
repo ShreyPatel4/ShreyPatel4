@@ -13,7 +13,7 @@ Rust and C++ where latency is the product. Python and Go for the parts that have
 Boston. Looking for a full time systems or infrastructure role, and happy to relocate anywhere in the US.
 
 [![Email](https://img.shields.io/badge/patelshrey77%40gmail.com-1A1611?style=flat-square&logo=gmail&logoColor=F7F3E8)](mailto:patelshrey77@gmail.com)
-[![Coconut Labs](https://img.shields.io/badge/coconutlabs.org-9B6B1F?style=flat-square)](https://coconutlabs.org)
+[![Coconut Labs](https://img.shields.io/badge/coconutlabs.org-2440CC?style=flat-square)](https://coconutlabs.org)
 [![kvwarden on PyPI](https://img.shields.io/pypi/v/kvwarden?style=flat-square&label=kvwarden&color=4A5B49)](https://pypi.org/project/kvwarden/)
 
 ---
@@ -111,6 +111,7 @@ A hybrid management plane that connects many Kubernetes clusters to a central co
 
 | Project | What it is | Stack |
 | :-- | :-- | :-- |
+| [Coconut OS](https://github.com/coconut-labs/coconut-os-lp) | New product direction for Coconut Labs: a Linux distribution where agents are first-class kernel primitives. Landing page at [coconutos.org](https://coconutos.org) | Linux, kernel |
 | [FastLane_NVMe](https://github.com/ShreyPatel4/FastLane_NVMe) | Storage offload stack that exposes NVMe semantics to guests over RDMA, with FPGA-ready hooks | Rust, VFIO-user |
 | [AMMIS](https://github.com/ShreyPatel4/Adaptive-Market-Microstructure-Intelligence-System-AMMIS-) | Reproducible C++20 workspace for latency-focused research: Conan, CMake, Google Benchmark, sanitizers | C++20, CMake, Conan |
 | [dream_team](https://github.com/ShreyPatel4/dream_team) | A 31-agent engineering organization running as a daemon, with per-agent identity files and chat bridges | Python, agents |
@@ -146,7 +147,7 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
-| [ccocnutlabs-LP](https://github.com/coconut-labs/ccocnutlabs-LP) | unit G: ingestion data-contract guardrail (class G) — integrated | 2026-08-05 |
+| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | design(direction-a): foundations — Geist, 16.5px body, 2px radius, dark scheme | 2026-08-10 |
 
 <!-- ACTIVITY_END -->
 
@@ -154,4 +155,4 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 ---
 
-Reach me at [shreypatel@coconutlabs.org](mailto:patelshrey77@gmail.org) or  [patelshrey77@gmail.com](mailto:patelshrey77@gmail.com). Full time roles, contract work, or an argument about inference fairness. All three are welcome.
+Reach me at [shreypatel@coconutlabs.org](mailto:shreypatel@coconutlabs.org) or  [patelshrey77@gmail.com](mailto:patelshrey77@gmail.com). Full time roles, contract work, or an argument about inference fairness. All three are welcome.
