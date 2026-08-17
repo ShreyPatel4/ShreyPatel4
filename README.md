@@ -147,9 +147,12 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
-| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | gallery: every unit links its public source repo | 2026-08-10 |
-| [kvwarden](https://github.com/coconut-labs/kvwarden) | chore: v0.1.6 dependency hygiene — cut runtime deps 144 MB → 33 MB,… | 2026-08-08 |
-| [.github](https://github.com/coconut-labs/.github) | Add org banner, rewrite the profile | 2026-08-08 |
+| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | markdown: render pipe tables in research notes | 2026-08-16 |
+| [coconut-os-lp](https://github.com/coconut-labs/coconut-os-lp) | team spec: stop asserting kernel stories are landing | 2026-08-16 |
+| [pulse-mbta](https://github.com/ShreyPatel4/pulse-mbta) | report: fix two provenance claims that were not true | 2026-08-15 |
+| [Latent-Diffusion-Artbench-OpenImage](https://github.com/ShreyPatel4/Latent-Diffusion-Artbench-OpenImage) | provenance: restore MIT, repoint model downloads at upstream | 2026-08-15 |
+| [carescribe](https://github.com/ShreyPatel4/carescribe) | Enforce the inherited raw contract on the deid layer | 2026-08-15 |
+| [pulse-serve](https://github.com/ShreyPatel4/pulse-serve) | docs: fix garbled marginal-cost formula, spell out availability-bas… | 2026-08-13 |
 
 <!-- ACTIVITY_END -->
 
