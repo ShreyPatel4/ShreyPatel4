@@ -147,12 +147,12 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
+| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | Retire the waterline and library doors | 2026-09-02 |
+| [pulse-serve](https://github.com/ShreyPatel4/pulse-serve) | README: Honest state was stale in the wrong direction | 2026-09-02 |
+| [pulse-mbta](https://github.com/ShreyPatel4/pulse-mbta) | Postmortem: the 9.6-day ingestion run | 2026-09-02 |
 | [coconut-os-lp](https://github.com/coconut-labs/coconut-os-lp) | site: temporary Paused holding page; hide OS-framing content (prese… | 2026-08-26 |
-| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | Move the credentials record off the lab site | 2026-08-22 |
-| [pulse-mbta](https://github.com/ShreyPatel4/pulse-mbta) | report: fix two provenance claims that were not true | 2026-08-15 |
 | [Latent-Diffusion-Artbench-OpenImage](https://github.com/ShreyPatel4/Latent-Diffusion-Artbench-OpenImage) | provenance: restore MIT, repoint model downloads at upstream | 2026-08-15 |
 | [carescribe](https://github.com/ShreyPatel4/carescribe) | Enforce the inherited raw contract on the deid layer | 2026-08-15 |
-| [pulse-serve](https://github.com/ShreyPatel4/pulse-serve) | docs: fix garbled marginal-cost formula, spell out availability-bas… | 2026-08-13 |
 
 <!-- ACTIVITY_END -->
 
