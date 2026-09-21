@@ -147,12 +147,11 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
+| [cua-record-replay](https://github.com/ShreyPatel4/cua-record-replay) | a browser closed during a pause is an ending, not a crash | 2026-09-16 |
 | [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | Retire the waterline and library doors | 2026-09-02 |
 | [pulse-serve](https://github.com/ShreyPatel4/pulse-serve) | README: Honest state was stale in the wrong direction | 2026-09-02 |
 | [pulse-mbta](https://github.com/ShreyPatel4/pulse-mbta) | Postmortem: the 9.6-day ingestion run | 2026-09-02 |
 | [coconut-os-lp](https://github.com/coconut-labs/coconut-os-lp) | site: temporary Paused holding page; hide OS-framing content (prese… | 2026-08-26 |
-| [Latent-Diffusion-Artbench-OpenImage](https://github.com/ShreyPatel4/Latent-Diffusion-Artbench-OpenImage) | provenance: restore MIT, repoint model downloads at upstream | 2026-08-15 |
-| [carescribe](https://github.com/ShreyPatel4/carescribe) | Enforce the inherited raw contract on the deid layer | 2026-08-15 |
 
 <!-- ACTIVITY_END -->
 
