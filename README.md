@@ -147,7 +147,8 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
-| [cua-record-replay](https://github.com/ShreyPatel4/cua-record-replay) | a browser closed during a pause is an ending, not a crash | 2026-09-16 |
+| [ironwright](https://github.com/ShreyPatel4/ironwright) | Merge as-of reads and the OTLP exporter | 2026-10-16 |
+| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | Ironwright verifies its audit chain in the browser, and links its s… | 2026-10-14 |
 
 <!-- ACTIVITY_END -->
 
