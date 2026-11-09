@@ -147,8 +147,7 @@ Data-Kitchen is archived on purpose. I would rather show the review that stopped
 
 | Repo | Last commit | When |
 | :-- | :-- | :-- |
-| [ironwright](https://github.com/ShreyPatel4/ironwright) | demo-check walks the console half of the script it gates | 2026-10-28 |
-| [coconutlabs-site](https://github.com/coconut-labs/coconutlabs-site) | Ironwright verifies its audit chain in the browser, and links its s… | 2026-10-14 |
+| [ironwright](https://github.com/ShreyPatel4/ironwright) | Merge pull request #43 from ShreyPatel4/saas/g3-ask-tenant | 2026-11-07 |
 
 <!-- ACTIVITY_END -->
 
